@@ -1,0 +1,261 @@
+
+
+.confirmation-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-dialog-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.confirmation-dialog-box p {
+  margin-bottom: 20px;
+}
+
+.confirm-delete-button, .cancel-delete-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-delete-button {
+  background-color: #f44336; /* Red color */
+  color: white;
+}
+
+.confirm-delete-button:hover {
+  background-color: #d32f2f; /* Darker red color on hover */
+}
+
+.cancel-delete-button {
+  background-color: #ccc; /* Gray color */
+  color: black;
+}
+
+.cancel-delete-button:hover {
+  background-color: #bfbfbf; /* Darker gray color on hover */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  z-index: 1000; /* Ensure modal is above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1001; /* Ensure modal is above overlay */
+  width: 400px; /* Adjust width as needed */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust the top margin according to your navbar height */
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  
+  .add-lecturer-button,
+  .update-lecturer-button {
+    padding: 10px 10px;
+    height: 80px;
+    width: 300px;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-lecturer-button:hover,
+  .update-lecturer-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .rectangle {
+    width: 80%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+ 
+
+
+.rectangles-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+
+
+.add-lecturer {
+  background-color: #f0f0f0;
+}
+
+.update-lecturer {
+  background-color: #e0e0e0;
+}
+
+.table-container {
+  width: 80%;
+  padding-top: 20px; /* Adjust for navbar */
+}
+
+.lecturer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container1 {
+  width: 90%;
+  padding-top: 20px; /* Adjust for navbar */
+}
+
+.lecturer-table1 {
+  padding-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lecturer-table1 th,
+.lecturer-table1 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.lecturer-table1 th {
+  background-color: #f2f2f2;
+}
+
+.lecturer-table th,
+.lecturer-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.lecturer-table th {
+  background-color: #f2f2f2;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.update-button1 {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width:40%;
+  
+}
+
+.update-button1:hover {
+  background-color: #0056b3;
+}
+
+.delete-button1 {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width:40%;
+}
+
+.delete-button1:hover {
+  background-color: #c82333;
+}
+
+
+.update-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width:50%;
+  
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width:50%;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+  

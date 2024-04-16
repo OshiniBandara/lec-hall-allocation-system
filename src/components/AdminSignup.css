@@ -1,0 +1,214 @@
+/* Add this CSS to your AdminSignup.css file */
+/* Dropdown styles */
+.error-message {
+  color: red; /* Red color for error messages */
+  font-size: 0.8rem; /* Adjust font size */
+  margin-top: 0.5rem; /* Add some margin at the top */
+}
+
+.error-message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #cfc6c6;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.error-message-box p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.error-message-box .ok-button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error-message-box .ok-button:hover {
+  background-color: #d32f2f;
+}
+
+
+
+.form-group select {
+  width: 100%; /* Full width */
+  padding: 0.5rem; /* Add some padding */
+  font-size: 1rem; /* Adjust font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add border radius */
+  background-color: #fff; /* White background */
+}
+
+/* Style when dropdown is disabled */
+.form-group select:disabled {
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Error message styles */
+.error-message {
+  color: red; /* Red color for error messages */
+  font-size: 0.8rem; /* Adjust font size */
+  margin-top: 0.5rem; /* Add some margin at the top */
+}
+
+.error-message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #cfc6c6;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.error-message-box p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.error-message-box button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error-message-box button:hover {
+  background-color: #d32f2f;
+}
+
+.success-message-container {
+  display: flex;
+  justify-content: center; /* Center the white and green boxes horizontally */
+}
+
+.white-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px; /* Set the width of the white box */
+}
+
+.green-box {
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.success-message-box p {
+  color: green;
+  margin-bottom: 20px;
+  text-align: center; /* Center the paragraph text */
+}
+
+.ok-button {
+  display: block;
+  width: 100px; /* Set the width of the OK button */
+  margin: 0 auto; /* Center the OK button horizontally */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center; /* Center the text inside the button */
+  transition: background-color 0.3s ease;
+}
+
+.ok-button:hover {
+  background-color: #0056b3;
+}
+
+
+.admin-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.admin-signup-container1 {
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Increased width */
+  max-width: 90%; /* Ensure it's responsive */
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.error-message {
+  color: red;
+}
+
+.success-message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.admin-image {
+  margin-right: 80px; 
+}
